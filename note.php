@@ -1,6 +1,7 @@
 <?php
-$note = "hbfhfdh";
+$date = $_POST["date"];
+$note = $_POST["note"];
 $f = fopen(__DIR__.'/db.txt','a');
-fwrite($f, $note."\n");
+fwrite($f, $date.",".$note."\n");
 fclose($f);
 ?>
