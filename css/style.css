@@ -1,0 +1,57 @@
+.cointainter {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.col-2 {
+    width: 50%;
+    float:left;
+}
+.calendar, .note {
+    padding: 15px;
+}
+.error{
+    display: none;
+    color:red;
+}
+table td {
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #a5a5a5;
+}
+table p.date:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.active {
+    font-weight: bold;
+}
+.calendar table, .note textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #a5a5a5;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+textarea {
+    padding: 10px;
+}
+.note button {
+    cursor: pointer;
+    border: 1px solid #a5a5a5;
+    border-radius: 40px;
+    padding: 5px;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.note button:hover {
+    background: gray;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+.arrow {
+    background: #ddd;
+}
+.arrow:hover, .arrow:hover {
+    cursor: pointer;
+    background: gray;
+}
+
